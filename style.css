@@ -21,10 +21,10 @@ th, td {
 }
 
 .main {
-    background-image: url('./img/image.jpg'); /* Nahraďte 'url_k_obrazku.jpg' skutečnou cestou k obrázku */
-    background-size: cover; /* Nastavuje, aby se obrázek přizpůsobil velikosti okna prohlížeče */
-    background-position: center center; /* Nastavuje pozici obrázku na střed */
-    background-repeat: no-repeat; /* Zabraňuje opakování obrázku */
+    background-image: url('./img/image.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
     background-attachment: fixed;
 }
 .row1 {
@@ -121,7 +121,7 @@ tr:hover td:not(:hover) {
 }
 
 .inner-td {
-    border: 2px solid #000; /* Rámeček kolem obsahu buňky */
+    border: 2px solid #000; 
 }
 .predmet{
     border-collapse: collapse;
