@@ -10,7 +10,8 @@ table {
 }
 
 tr{
-    height: 100px;
+    height: 75px;
+margin-bottom: auto;
 
 }
 th, td {
@@ -19,7 +20,13 @@ th, td {
     text-align: center;
 }
 
-
+.main {
+    background-image: url('./img/image.jpg'); /* Nahraďte 'url_k_obrazku.jpg' skutečnou cestou k obrázku */
+    background-size: cover; /* Nastavuje, aby se obrázek přizpůsobil velikosti okna prohlížeče */
+    background-position: center center; /* Nastavuje pozici obrázku na střed */
+    background-repeat: no-repeat; /* Zabraňuje opakování obrázku */
+    background-attachment: fixed;
+}
 .row1 {
     background-color: black;
     color: white;
@@ -32,7 +39,7 @@ th, td {
     box-shadow: 5px 5px 5px #888888;
     border-bottom: 1px solid black ;
 }
-h1 {
+caption {
     text-align: center;
     color: white;
     font-size: 50px;
@@ -45,18 +52,32 @@ h1 {
     background-color: black;
     box-shadow: 5px 5px 5px #888888;
 }
-.rozvrh {
-    color: #fff;
-    text-align: center;
-    animation: glow 3s ease-in-out infinite alternate;
-  }
+
   
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px black, 0 0 40px white, 0 0 50px black, 0 0 60px white, 0 0 70px black;
-    }
-    
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
-    }
-  }
+  
+  
+  .inner-table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: #000 1px 2px 30px; 
+    color: white;
+}
+
+.inner-th, .inner-td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.inner-th {
+    background-color: #f2f2f2;
+}
+
+.inner-td {
+    border: 2px solid #000; /* Rámeček kolem obsahu buňky */
+}
+.predmet{
+    border-collapse: collapse;
+    box-shadow: #000 1px 2px 30px; 
+    color: white;
+}
