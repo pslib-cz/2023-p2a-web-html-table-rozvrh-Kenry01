@@ -144,3 +144,10 @@ tr:hover td:not(:hover) {
       text-shadow: 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
     }
 }
+.ucitel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 10px;
+  padding-top: 0.5em;
+}
